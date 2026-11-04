@@ -1,0 +1,27 @@
+```gitignore
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# Reports and network captures
+reports/
+*.pcap
+*.pcapng
+
+# VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+```
